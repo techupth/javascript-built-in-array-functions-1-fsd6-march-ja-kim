@@ -5,12 +5,15 @@ const todos = [
   { topic: "Relax", completed: false },
   { topic: "Clean the room", completed: true },
 ];
-
 function getTodoTopics(todos) {
   // Start coding here
+		return todos.topic
+
 }
 
-getTodoTopics(todos);
+let todoList = todos.map(getTodoTopics);
+console.log(todoList)
+
 
 /* 
 	Output:
